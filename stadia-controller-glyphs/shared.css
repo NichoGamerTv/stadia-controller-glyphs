@@ -1,0 +1,98 @@
+:root {
+  --stadia-guide-img: url(/themes_custom/stadia-controller-glyphs/assets/guide.svg);
+  --stadia-controller-img: url(/themes_custom/stadia-controller-glyphs/assets/stadia-controller.svg);
+  --stadia-start-img: url(/themes_custom/stadia-controller-glyphs/assets/start.svg);
+  --stadia-select-img: url(/themes_custom/stadia-controller-glyphs/assets/select.svg);
+  --stadia-l1-img: url(/themes_custom/stadia-controller-glyphs/assets/l1.svg);
+  --stadia-l2-img: url(/themes_custom/stadia-controller-glyphs/assets/l2.svg);
+  --stadia-r1-img: url(/themes_custom/stadia-controller-glyphs/assets/r1.svg);
+  --stadia-r2-img: url(/themes_custom/stadia-controller-glyphs/assets/r2.svg);
+  --stadia-l2-soft-img: url(/themes_custom/stadia-controller-glyphs/assets/l2-soft.svg);
+  --stadia-r2-soft-img: url(/themes_custom/stadia-controller-glyphs/assets/r2-soft.svg);
+  --stadia-dpad-img: url(/themes_custom/stadia-controller-glyphs/assets/dpad.svg);
+  --stadia-dpad-up-img: url(/themes_custom/stadia-controller-glyphs/assets/dpad-up.svg);
+  --stadia-dpad-down-img: url(/themes_custom/stadia-controller-glyphs/assets/dpad-down.svg);
+  --stadia-dpad-left-img: url(/themes_custom/stadia-controller-glyphs/assets/dpad-left.svg);
+  --stadia-dpad-right-img: url(/themes_custom/stadia-controller-glyphs/assets/dpad-right.svg);
+  --stadia-capture-img: url(/themes_custom/stadia-controller-glyphs/assets/capture.svg);
+}
+
+.controller_generic .rlz-U2wn9ktH5Z9trfpZa {
+  background-image: var(--stadia-controller-img);
+}
+
+img[src='/steaminputglyphs/xbox_button_logo.svg'] {
+  content: var(--stadia-guide-img);
+}
+
+img[src='/steaminputglyphs/xbox360_button_select.svg'] {
+  content: var(--stadia-select-img);
+}
+
+img[src='/steaminputglyphs/xbox360_button_start.svg'] {
+  content: var(--stadia-start-img);
+}
+
+img[src='/steaminputglyphs/shared_color_button_a.svg'] {
+  content: url(/steaminputglyphs/shared_button_a.svg);
+}
+
+img[src='/steaminputglyphs/shared_color_button_b.svg'] {
+  content: url(/steaminputglyphs/shared_button_b.svg);
+}
+
+img[src='/steaminputglyphs/shared_color_button_x.svg'] {
+  content: url(/steaminputglyphs/shared_button_x.svg);
+}
+
+img[src='/steaminputglyphs/shared_color_button_y.svg'] {
+  content: url(/steaminputglyphs/shared_button_y.svg);
+}
+
+img[src='/steaminputglyphs/xbox_lb.svg'] {
+  content: var(--stadia-l1-img);
+}
+
+img[src='/steaminputglyphs/xbox_lt.svg'] {
+  content: var(--stadia-l2-img);
+}
+
+img[src='/steaminputglyphs/xbox_rb.svg'] {
+  content: var(--stadia-r1-img);
+}
+
+img[src='/steaminputglyphs/xbox_rt.svg'] {
+  content: var(--stadia-r2-img);
+}
+
+img[src='/steaminputglyphs/xbox_lt_soft.svg'] {
+  content: var(--stadia-l2-soft-img);
+}
+
+img[src='/steaminputglyphs/xbox_rt_soft.svg'] {
+  content: var(--stadia-r2-soft-img);
+}
+
+img[src='/steaminputglyphs/shared_dpad.svg'] {
+  content: var(--stadia-dpad-img);
+}
+
+img[src='/steaminputglyphs/shared_dpad_up.svg'] {
+  content: var(--stadia-dpad-up-img);
+}
+
+img[src='/steaminputglyphs/shared_dpad_down.svg'] {
+  content: var(--stadia-dpad-down-img);
+}
+
+img[src='/steaminputglyphs/shared_dpad_left.svg'] {
+  content: var(--stadia-dpad-left-img);
+}
+
+img[src='/steaminputglyphs/shared_dpad_right.svg'] {
+  content: var(--stadia-dpad-right-img);
+}
+
+img[src='/steaminputglyphs/xbox_button_share.svg'] {
+  content: var(--stadia-capture-img);
+}
